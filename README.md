@@ -85,4 +85,4 @@ If you have any questions or need further assistance, feel free to reach out to 
 
 - **Maintainer Name** - [!!no email righ now!!](mailto:email@example.com)
 
-Thank you for contributing to **cheats**! Your contributions help make this project better for everyone.
+Thank you for contributing to **CheatsHub**! Your contributions help make this project better for everyone.
