@@ -38,6 +38,11 @@
             text-decoration: none;
             padding: 0.5em 1em;
             display: block;
+            transition: background-color 0.3s;
+        }
+        nav ul li a:hover {
+            background-color: #666;
+            border-radius: 5px;
         }
         nav ul li ul {
             display: none;
@@ -92,23 +97,26 @@
         <h1>Welcome to Cheat Codes</h1>
     </header>
     <nav>
+        
+        <ul>
+            <li><a href="index.html">home</a></li>
+        </ul>
+        
         <ul>
             <li>
                 <a href="javascript:void(0)" onclick="toggleMenu('gta-series')">GTA Series</a>
                 <ul id="gta-series">
-                    <li><a href="gta cheats.html">GTA V</a></li>
-                    <li><a href="gta-iv.html">GTA IV</a></li>
-                    <li><a href="gta-sa.html">GTA: San Andreas</a></li>
-                    <li><a href="gta-vc.html">GTA: Vice City</a></li>
+                    <li><a href="gta cheats.html">GTA 3D series</a></li>
+                    <li><a href="gta.html">GTA 2D series</a></li>
                 </ul>
             </li>
 
-              <li>
-                <a href="javascript:void(0)" onclick="toggleMenu('other-games')">Farcry</a>
+            <li>
+                <a href="javascript:void(0)" onclick="toggleMenu('farcry-series')">Farcry</a>
                 <ul id="farcry-series">
-                    <li><a href="#">farcry 1</a></li>
-                    <li><a href="#">farcry 2</a></li>
-                    <li><a href="#">farcry 3</a></li>
+                    <li><a href="#">Farcry 1</a></li>
+                    <li><a href="#">Farcry 2</a></li>
+                    <li><a href="#">Farcry 3</a></li>
                 </ul>
             </li>
 
@@ -118,6 +126,15 @@
                     <li><a href="#">Game 1</a></li>
                     <li><a href="#">Game 2</a></li>
                     <li><a href="#">Game 3</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="javascript:void(0)" onclick="toggleMenu('misc-games')">Miscellaneous</a>
+                <ul id="misc-games">
+                    <li><a href="#">Misc Game 1</a></li>
+                    <li><a href="#">Misc Game 2</a></li>
+                    <li><a href="#">Misc Game 3</a></li>
                 </ul>
             </li>
         </ul>
