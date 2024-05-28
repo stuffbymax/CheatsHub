@@ -18,10 +18,10 @@ Welcome to **cheats**! We appreciate your interest in contributing to our projec
 To get started with contributing to **Project Name**, follow these steps:
 
 1. **Fork the Repository**
-   - Click the "Fork" button on the top right corner of the repository page to create a copy under your GitHub account.
+ - Click the "Fork" button on the top right corner of the repository page to create a copy under your GitHub account.
 
 2. **Clone the Repository**
-   - Clone your forked repository to your local machine using:
+ - Clone your forked repository to your local machine using:
      ```bash
      git clone https://github.com/stuffbymax/cheats.git
      ```
@@ -29,7 +29,7 @@ To get started with contributing to **Project Name**, follow these steps:
 
 
 3. **Create a Branch**
-   - Create a new branch for your feature or bug fix:
+- Create a new branch for your feature or bug fix:
      ```bash
      git checkout -b feature/your-feature-name
      ```
@@ -54,22 +54,22 @@ I welcome suggestions for new features or enhancements. To suggest an improvemen
 ### Submitting Changes
 
 1. **Ensure Code Quality**
-   - Make sure your code adheres to the project's coding standards and guidelines. Refer to the [CONTRIBUTING.md](CONTRIBUTING.md) file for more details.
+- Make sure your code adheres to the project's coding standards and guidelines. Refer to the [CONTRIBUTING.md](CONTRIBUTING.md) file for more details.
 
 2. **Commit Your Changes**
-   - Write clear, concise commit messages:
+ - Write clear, concise commit messages:
      ```bash
      git commit -m "Add feature: description of the feature"
      ```
 
 3. **Push to Your Fork**
-   - Push your changes to your forked repository:
+- Push your changes to your forked repository:
      ```bash
      git push origin feature/your-feature-name
      ```
 
 4. **Create a Pull Request**
-   - Navigate to the original repository and open a pull request from your branch. Fill out the provided template with a description of your changes and any issues they address.
+- Navigate to the original repository and open a pull request from your branch. Fill out the provided template with a description of your changes and any issues they address.
 
 ## Code of Conduct
 
