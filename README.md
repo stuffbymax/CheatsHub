@@ -1,6 +1,6 @@
-# cheats
+# cheatsHub
 
-Welcome to **cheats**! We appreciate your interest in contributing to our project. This document provides guidelines and instructions on how to contribute effectively.
+Welcome to **cheatsHub**! We appreciate your interest in contributing to our project. This document provides guidelines and instructions on how to contribute effectively.
 
 ## Table of Contents
 
