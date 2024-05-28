@@ -38,7 +38,7 @@ To get started with contributing to **Project Name**, follow these steps:
 
 ### Reporting Bugs
 
-If you encounter any bugs, please report them by creating an issue in the [Issues]([https://github.com/stuffbymax/cheats/actions](https://github.com/stuffbymax/cheats/issues) section. Include detailed information to help us understand and reproduce the problem:
+If you encounter any bugs, please report them by creating an issue in the [Issues](https://github.com/stuffbymax/cheats/actions](https://github.com/stuffbymax/cheats/issues) section. Include detailed information to help us understand and reproduce the problem:
 - **Steps to reproduce the behavior**
 - **Expected behavior**
 - **Actual behavior**
