@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheat Codes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            padding: 0.5em 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline-block;
+            position: relative;
+        }
+        nav ul li a {
+            color: #fff;
+            margin: 0 1em;
+            text-decoration: none;
+            padding: 0.5em 1em;
+            display: block;
+        }
+        nav ul li ul {
+            display: none;
+            position: absolute;
+            background-color: #444;
+            top: 100%;
+            left: 0;
+            padding: 0;
+        }
+        nav ul li ul li {
+            display: block;
+        }
+        nav ul li:hover ul {
+            display: block;
+        }
+        .container {
+            width: 80%;
+            margin: 2em auto;
+            text-align: center;
+        }
+        .game-links {
+            list-style: none;
+            padding: 0;
+        }
+        .game-links li {
+            margin: 1em 0;
+            background: #fff;
+            padding: 1em;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .game-links a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+    </style>
+    <script>
+        function toggleMenu(id) {
+            const menu = document.getElementById(id);
+            if (menu.style.display === 'block') {
+                menu.style.display = 'none';
+            } else {
+                menu.style.display = 'block';
+            }
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Cheat Codes</h1>
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="javascript:void(0)" onclick="toggleMenu('gta-series')">GTA Series</a>
+                <ul id="gta-series">
+                    <li><a href="gta cheats.html">GTA V</a></li>
+                    <li><a href="gta-iv.html">GTA IV</a></li>
+                    <li><a href="gta-sa.html">GTA: San Andreas</a></li>
+                    <li><a href="gta-vc.html">GTA: Vice City</a></li>
+                </ul>
+            </li>
+
+              <li>
+                <a href="javascript:void(0)" onclick="toggleMenu('other-games')">Farcry</a>
+                <ul id="farcry-series">
+                    <li><a href="#">farcry 1</a></li>
+                    <li><a href="#">farcry 2</a></li>
+                    <li><a href="#">farcry 3</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="javascript:void(0)" onclick="toggleMenu('other-games')">Other Games</a>
+                <ul id="other-games">
+                    <li><a href="#">Game 1</a></li>
+                    <li><a href="#">Game 2</a></li>
+                    <li><a href="#">Game 3</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h2>Select a game series from the navigation menu to view cheat codes.</h2>
+    </div>
+</body>
+</html>
