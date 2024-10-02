@@ -18,129 +18,69 @@
             padding: 1em 0;
             text-align: center;
         }
-        nav {
-            background-color: #444;
-            padding: 0.5em 0;
-            text-align: center;
-        }
-        nav ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
-        nav ul li {
-            display: inline-block;
-            position: relative;
-        }
-        nav ul li a {
-            color: #fff;
-            margin: 0 1em;
-            text-decoration: none;
-            padding: 0.5em 1em;
-            display: block;
-            transition: background-color 0.3s;
-        }
-        nav ul li a:hover {
-            background-color: #666;
-            border-radius: 5px;
-        }
-        nav ul li ul {
-            display: none;
-            position: absolute;
-            background-color: #444;
-            top: 100%;
-            left: 0;
-            padding: 0;
-        }
-        nav ul li ul li {
-            display: block;
-        }
-        nav ul li:hover ul {
-            display: block;
-        }
         .container {
             width: 80%;
             margin: 2em auto;
             text-align: center;
         }
-        .game-links {
-            list-style: none;
-            padding: 0;
+        .grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2em;
+            justify-content: center;
         }
-        .game-links li {
-            margin: 1em 0;
-            background: #fff;
+        .game-box {
+            width: 200px;
             padding: 1em;
+            background: #fff;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
         }
-        .game-links a {
+        .game-box:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        }
+        .game-box img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .game-box a {
             text-decoration: none;
             color: #333;
             font-weight: bold;
-            font-size: 1.2em;
+            display: block;
+            margin-top: 0.5em;
         }
     </style>
-    <script>
-        function toggleMenu(id) {
-            const menu = document.getElementById(id);
-            if (menu.style.display === 'block') {
-                menu.style.display = 'none';
-            } else {
-                menu.style.display = 'block';
-            }
-        }
-    </script>
 </head>
 <body>
     <header>
         <h1>Welcome to Cheat Codes</h1>
     </header>
-    <nav>
-        
-        <ul>
-            <li><a href="index.html">home</a></li>
-        </ul>
-        
-        <ul>
-            <li>
-                <a href="javascript:void(0)" onclick="toggleMenu('gta-series')">GTA Series</a>
-                <ul id="gta-series">
-                    <li><a href="gta cheats.html">GTA 3D series</a></li>
-                    <li><a href="gta.html">GTA 2D series</a></li>
-                </ul>
-            </li>
 
-            <li>
-                <a href="javascript:void(0)" onclick="toggleMenu('farcry-series')">Farcry</a>
-                <ul id="farcry-series">
-                    <li><a href="#">Farcry 1</a></li>
-                    <li><a href="#">Farcry 2</a></li>
-                    <li><a href="#">Farcry 3</a></li>
-                </ul>
-            </li>
-
-            <li>
-                <a href="javascript:void(0)" onclick="toggleMenu('other-games')">Other Games</a>
-                <ul id="other-games">
-                    <li><a href="#">Game 1</a></li>
-                    <li><a href="#">Game 2</a></li>
-                    <li><a href="#">Game 3</a></li>
-                </ul>
-            </li>
-
-            <li>
-                <a href="javascript:void(0)" onclick="toggleMenu('misc-games')">Miscellaneous</a>
-                <ul id="misc-games">
-                    <li><a href="#">Misc Game 1</a></li>
-                    <li><a href="#">Misc Game 2</a></li>
-                    <li><a href="#">Misc Game 3</a></li>
-                </ul>
-            </li>
-        </ul>
-    </nav>
     <div class="container">
-        <h2>Select a game series from the navigation menu to view cheat codes.</h2>
+        <h2>Select a game series to view cheat codes.</h2>
+
+        <div class="grid">
+            <div class="game-box">
+                <img src="gta.jpg" alt="GTA Series">
+                <a href="gta-cheats.html">GTA Series</a>
+            </div>
+            <div class="game-box">
+                <img src="farcry.jpg" alt="Farcry Series">
+                <a href="farcry-cheats.html">Farcry Series</a>
+            </div>
+            <div class="game-box">
+                <img src="other-games.jpg" alt="Other Games">
+                <a href="#">Other Games</a>
+            </div>
+            <div class="game-box">
+                <img src="misc.jpg" alt="Miscellaneous Games">
+                <a href="#">Miscellaneous</a>
+            </div>
+        </div>
     </div>
 </body>
 </html>
